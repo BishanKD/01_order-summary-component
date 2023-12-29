@@ -1,0 +1,57 @@
+*{
+    margin:0px; 
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:auto;
+    width: 30%;
+    border: 2px solid red;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#cover-img, #cover{
+    width: 100%;
+}
+
+
+#summary{
+    text-align: center;
+    width:80%;
+    margin: 25px auto 10px;
+    /* border: 2px solid yellow; */
+}
+#heading{
+    margin-bottom: 15px;
+}
+#plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin:10px auto;
+    /* border:2px solid green; */    
+}
+#annual-plan{
+    margin-left: 10px;
+}
+#change-btn{
+    margin-left: auto;
+}
+
+#confirm-btns{
+    height:120px;
+}
