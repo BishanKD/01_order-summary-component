@@ -108,4 +108,26 @@ body{
     color: hsl(224, 23%, 55%);
 }
 
+@media (max-width:960px) {
+    .flex-container{
+        width:45%;
+    }
+}
 
+@media (max-width:705px){
+    .flex-container{
+        width:60%;
+    }
+}
+
+@media (max-width:530px){
+    .flex-container{
+        width: 80%;
+    }
+}
+
+@media (max-width:395px){
+    .flex-container{
+        width:90%;
+    }
+}
