@@ -3,11 +3,10 @@
     padding:0px;
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
-    
 }
 
 body{
-    background: url(/01_order-summary-component/images/pattern-background-desktop.svg);
+    background: url(/images/pattern-background-desktop.svg);
     background-size: cover;
     width:100vw;
     height: 100vh;
@@ -103,10 +102,15 @@ body{
 #proceed:hover{
     background-color: hsl(224, 23%, 55%);
 }
+
 #cancel{
     margin: 15px 0px;
     color: hsl(224, 23%, 55%);
 }
+#cancel:hover{
+    color:hsl(223, 47%, 23%);
+}
+
 
 @media (max-width:960px) {
     .flex-container{
