@@ -10,6 +10,7 @@
 
   <link rel="stylesheet" type="text/css" href="style.css">
 
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Red+Hat+Display">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -31,20 +32,24 @@
     <div class="flex-item" id="plan">
       <img id="music-icon" src="/01_order-summary-component/images/icon-music.svg">
       <div id="annual-plan">  
-        <p>Annual Plan</p>
+        <p id="annual-plan-text">Annual Plan</p>
         <!-- <br> -->
-        <p>$59.99/year</p>
+        <p id="annual-plan-price">$59.99/year</p>
       </div>
       <a id="change-btn" href="#">Change</a>
     </div>
     
     <div class="flex-item" id="confirm-btns">
-      <div id="proceed">
-        Proceed to Payment
-      </div>  
-      <div id="cancel">
-        Cancel Order
-      </div>
+      <a href="#">
+        <div id="proceed">
+          Proceed to Payment
+        </div> 
+      </a> 
+      <a href="#">
+        <div id="cancel">
+          Cancel Order
+        </div>
+      </a>
     </div>
 
   </div>

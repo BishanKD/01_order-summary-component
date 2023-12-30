@@ -2,9 +2,13 @@
     margin:0px; 
     padding:0px;
     box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    
 }
 
 body{
+    background: url(/01_order-summary-component/images/pattern-background-desktop.svg);
+    background-size: cover;
     width:100vw;
     height: 100vh;
     display:flex;
@@ -14,14 +18,16 @@ body{
 }
 
 .flex-container{
+    background-color: white;
     display:flex;
     flex-direction: column;
     align-items: center;
     height:auto;
-    width: 30%;
-    border: 2px solid red;
+    width: 33%;
+    /* border: 2px solid red; */
     border-radius: 15px;
     overflow: hidden;
+    margin:auto;
 }
 #cover-img, #cover{
     width: 100%;
@@ -30,28 +36,76 @@ body{
 
 #summary{
     text-align: center;
-    width:80%;
+    width:75%;
     margin: 25px auto 10px;
     /* border: 2px solid yellow; */
 }
 #heading{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+#para{
+    color:hsl(224, 23%, 55%);
 }
 #plan{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
-    margin:10px auto;
-    /* border:2px solid green; */    
+    width: 75%;
+    margin:15px auto;
+    /* border:2px solid green;     */
 }
 #annual-plan{
     margin-left: 10px;
 }
+#annual-plan-text{
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+#annual-plan-price{
+    color: hsl(224, 23%, 55%);
+}
 #change-btn{
     margin-left: auto;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+#change-btn:hover{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
 }
 
 #confirm-btns{
-    height:120px;
+    /* height:120px; */
+    width: 85%;
+    /* border: 2px solid blue; */
+    margin: 25px auto;
+    
 }
+#confirm-btns > a{
+    text-decoration: none;
+}
+#proceed, #cancel{
+    padding:10px;
+    font-weight: 700;
+    text-align: center;
+    /* border:1px solid green; */
+    border-radius: 10px;
+}
+#proceed{
+    color: white;
+    background: hsl(245, 75%, 52%);
+    /* background: hsl(223, 47%, 23%);
+    background: hsl(224, 23%, 55%); */
+    box-shadow: 0px 10px 20px hsl(225, 100%, 94%);
+}
+#proceed:hover{
+    background-color: hsl(224, 23%, 55%);
+}
+#cancel{
+    margin: 15px 0px;
+    color: hsl(224, 23%, 55%);
+}
+
+
