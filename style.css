@@ -1,3 +1,11 @@
+:root{
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
 *{
     margin:0px; 
     padding:0px;
@@ -42,10 +50,10 @@ body{
 #heading{
     margin-bottom: 10px;
     font-weight: 900;
-    color: hsl(223, 47%, 23%);
+    color: var(--dark-blue);
 }
 #para{
-    color:hsl(224, 23%, 55%);
+    color:var(--desaturated-blue);
 }
 #plan{
     display: flex;
@@ -60,18 +68,18 @@ body{
 }
 #annual-plan-text{
     font-weight: 700;
-    color: hsl(223, 47%, 23%);
+    color: var(--dark-blue);
 }
 #annual-plan-price{
-    color: hsl(224, 23%, 55%);
+    color: var(--desaturated-blue);
 }
 #change-btn{
     margin-left: auto;
     font-weight: 700;
-    color: hsl(245, 75%, 52%);
+    color: var(--bright-blue);
 }
 #change-btn:hover{
-    color: hsl(224, 23%, 55%);
+    color: var(--desaturated-blue);
     text-decoration: none;
 }
 
@@ -94,21 +102,21 @@ body{
 }
 #proceed{
     color: white;
-    background: hsl(245, 75%, 52%);
+    background: var(--bright-blue);
     /* background: hsl(223, 47%, 23%);
     background: hsl(224, 23%, 55%); */
-    box-shadow: 0px 10px 20px hsl(225, 100%, 94%);
+    box-shadow: 0px 10px 20px var(--pale-blue);
 }
 #proceed:hover{
-    background-color: hsl(224, 23%, 55%);
+    background-color: var(--desaturated-blue);
 }
 
 #cancel{
     margin: 15px 0px;
-    color: hsl(224, 23%, 55%);
+    color: var(--desaturated-blue);
 }
 #cancel:hover{
-    color:hsl(223, 47%, 23%);
+    color:var(--dark-blue);
 }
 
 
